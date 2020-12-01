@@ -1,0 +1,303 @@
+h1 {
+	font-family: lust-script-display, sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	padding: 0 0 1rem;
+}
+
+p {
+	font-family: alternate-gothic-no-3-d, sans-serif;
+	font-weight: 100;
+	color: white;
+	font-size: 20px;
+}
+
+header {
+	background-color: rgb(46, 46, 46, .9);
+	text-align: center;
+	width: 100%;
+	z-index: 999999;
+	position: fixed;
+}
+
+header a {
+	color: white;
+	font-family: alternate-gothic-no-3-d, sans-serif;
+	font-weight: 400;
+	font-size: 2vw;
+	text-decoration: underline !important;
+}
+
+a:hover, a:focus {
+	color: pink;
+}
+
+header img {
+	height: 10vw;
+	padding: 1.25rem;
+	min-height: 90px;
+	max-height: 125px;
+	top: -200px;
+}
+
+li a {
+	padding: 1rem 1rem;
+}
+
+#head {
+	padding: 1.2rem;
+}
+
+#menu {
+	background-color: #2e2e2e;
+}
+
+.hero {
+	position: relative;
+}
+
+.hero img {
+	width: 100%;
+	height: auto;
+	top: -137px;
+}
+
+.content {
+	text-align: center;
+	padding: 2rem;
+	position: absolute;
+	background-color: rgb(46, 46, 46, .8);
+	margin: 0;
+  	top: 50%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	width: 70%;
+}
+
+.bookroom {
+	background-color: #3B3B3B;
+	padding: 2rem 3rem 3rem 3rem;
+}
+
+.bookroom img {
+	width: 100%;
+}
+
+.bookroom #br {
+	max-width: 700px;
+}
+
+.bookroom p {
+	padding: 1rem;
+}
+
+.reveal {
+	background-image: url(../img/reveal1.jpg);
+	padding: 3rem; 
+	height: 45%;
+	border-style: none;
+}
+
+.reveal h1 {
+	text-shadow: 2px 2px black;
+	padding-bottom: 1rem;
+}
+
+.reveal h2 {
+	font-family: alternate-gothic-no-3-d, sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	 text-shadow: 2px 2px black;
+}
+
+.reveal h3 {
+	font-family: alternate-gothic-no-3-d, sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+
+button.close-button {
+	color: white;
+}
+
+table.table {
+	font-family: alternate-gothic-no-3-d, sans-serif;
+	font-size: 20px;
+	padding: .5rem;
+	max-width: 900px;
+	margin: 0;
+}
+
+th.cell.small-6 {
+	padding-top: 1rem;
+}
+
+thead th {
+	font-weight: 100;
+}
+
+.button.small {
+	background-color:#696767; 
+	font-size: 15px;
+}
+
+
+.features {
+	background-color: #696767;
+	padding: 2rem 3rem 2rem 3rem;
+}
+
+
+.features .card-section{
+	background-color: #3B3B3B;
+}
+
+.features div.grid-x.grid-margin-x.grid-margin-y {	
+	margin: auto;
+  	width: 75%;
+}
+
+div.card.data-equalizer-watch {
+	border-style: none;
+}
+
+.features p {
+	margin: auto;
+  	padding-top: .5rem;
+}
+
+h2 {
+	text-align: center;
+	margin: auto;
+  	width: 75%;
+  	font-family: alternate-gothic-no-3-d, sans-serif;
+	color: white;
+	font-size: 30px;
+	
+}
+
+.orbit {
+	max-width: 400px;
+	margin: auto; 
+	max-height: auto;
+}
+
+.ttd {
+	background-color: #3B3B3B;
+	padding: 2rem 3rem 2rem 3rem;
+}
+
+.ttd .card-section{
+	background-color: #696767;
+}
+
+.about {
+	background-color: #696767;
+	padding: 3rem;
+	vertical-align: middle;
+	position: relative;
+}
+
+.about h1 {
+	padding: 0rem;
+}
+
+.about data {
+	margin: 0;
+ 	position: absolute;
+ 	top: 50%;
+ 	-ms-transform: translateY(-50%);
+ 	transform: translateY(-50%);
+}
+
+.about img {
+	max-height: 500px;
+}
+
+footer {
+	background-color: #3B3B3B;
+	padding: 2rem;
+}
+
+footer h1 {
+	font-size: 50px;
+}
+
+footer p {
+	font-family: alternate-gothic-no-3-d, sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 20px;
+	padding-top: 1rem;
+	text-align: center;
+}
+
+address {
+	font-family: alternate-gothic-no-3-d, sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 20px;
+	padding-top: 1rem;
+	text-align: center;
+}
+
+div#logo.cell {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+footer ul {
+	background-color: none;
+	text-align: center;
+	margin: auto;
+}
+
+footer ul a {
+	padding-right: 1rem;
+	padding-left: 1rem;
+	color: white;
+	font-family: alternate-gothic-no-3-d, sans-serif;
+	font-weight: 400;
+}
+
+.orbit-bullets {
+	margin: 0;
+	padding: .8rem;
+	padding-bottom: 3rem;
+}
+
+footer #map {
+	max-width: 500px;
+	padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

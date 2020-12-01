@@ -1,0 +1,440 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Villa Luzia</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ojt2jhs.css">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="grid-x">
+        <div class="cell">
+          <a href="#"><img src="img/vlogo.svg" alt="logo"></a> 
+        </div>
+       </div>
+       <div>
+
+       <div class="grid-x show-for-medium">
+        <div class="cell" id="menu">
+          <ul class="menu align-center" data-magellan data-offset="150">
+            <li><a href="#bookroom">book a room</a></li>
+            <li><a href="#features">explore our hotel</a></li>
+            <li><a href="#ttd">things to do</a></li>
+            <li><a href="#about">about us</a></li>
+            <li><a href="#contact">contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero" id="hero" data-magellan-target="hero">
+        <div class="grid-x">
+          <div class="cell">
+            <img data-interchange="[img/mobilehero.jpg, small],[img/heroweb.jpg, medium]"> </div>
+              <div class="content cell align-center show-for-large">
+                <h1>Welcome!</h1>
+                <p>Enjoy your stay in the beautiful city of Lisboa while relaxing with our five star experience. Featuring a new in-house restaurant and gorgeous views from our rooftop garden.</p>
+              </div>
+              <div class="content cell align-center show-for-medium-only">
+                <h1>Welcome!</h1>
+                <p>Enjoy your stay in the beautiful city of Lisboa while relaxing with our five star experience.</p>
+              </div>
+              <div class="content cell align-center show-for-small-only">
+                <h1>Welcome!</h1>
+                <p>Enjoy your stay in the beautiful city of Lisboa while relaxing with our five star experience. Featuring a new in-house restaurant and gorgeous views from our rooftop garden.</p>
+              </div>
+          </div>
+    </section>
+
+    <section class="bookroom" id="bookroom" data-magellan-target="bookroom">
+      <div class="grid-container fluid">
+        <div class="grid-x grid-margin-x align-center">
+
+          <div class="cell">
+            <h1>book a room</h1>
+          </div>
+          <div class="cell small-12 large-6" id="br">
+            
+            <img src="img/bookroom.jpg">
+            <p>All of our rooms are made for luxury. Only the best quality linens and amenities are sourced in our hotel. Each room includes a glass door veranda.</p>
+          </div>
+
+
+          <div class="cell small-12 large-6">
+            <table class="table">
+
+              <thead> 
+
+                
+
+                <tr class="grid-x">
+                  <th class="cell small-6">Check in:
+                    <input type="text" class="span2" value="" id="dpd1">
+                  </th>
+                  <th class="cell small-6">Check out:
+                    <input type="text" class="span2" value="" id="dpd2">
+                  </th>
+                  <th class="cell small-12">Number of Rooms:
+                    <input type="number" class="span2" value="" id="dpd3">
+                  </th>
+                  <th class="cell small-12">Number of Guests:
+                    <input type="number" class="span2" value="" id="dpd4">
+                  </th>
+                  
+                </tr>
+                <tr class="grid-x">
+                  <th class="cell">
+                    <input type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+                  </th>
+                </tr>        
+              </thead>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="features" id="features" data-magellan-target="features">
+     
+      <div class="grid-container show-for-large">
+        <h1>explore our hotel</h1>
+        <div class="grid-x grid-margin-x show-for-medium medium-up-4" data-equalizer data-equalize-on="medium" id="test-eq">
+           
+          <div class="cell">
+              <div class="card data-equalizer-watch">
+              <img src="img/feature1.jpg">
+              <div class="card-section">
+                <h2>Rooftop Garden</h2>
+                <p>Our freshly manicured rooftop garden is open 24 hours and is perfect to lay in the sun or relax in the shade.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cell">
+            <div class="card data-equalizer-watch">
+            <img src="img/feature3.jpg">
+            <div class="card-section">
+              <h2>Gourmet Cooking</h2>
+              <p>Our new restaurant, Gallo, offers fresh gourmet plates perfect for any dietary needs. Room service available 24 hours.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="cell">
+            <div class="card data-equalizer-watch">
+            <img src="img/feature4.jpg">
+            <div class="card-section">
+              <h2>Rooftop Pool</h2>
+              <p>Cool down in our sparkling blue pool surrounded by our gorgeous gardens and beautiful rooftop view.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="cell">
+            <div class="card data-equalizer-watch">
+            <img src="img/feature5.jpg">
+            <div class="card-section">
+              <h2>Hotel Lounges</h2>
+              <p>Multiple lounges are available for our guests throughout our hotel, including free wifi and television access.</p>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="grid-container show-for-small hide-for-large">
+        <h1>explore our hotel</h1>
+        <div class="orbit" role="region" aria-label="features" data-orbit>
+          <div class="orbit-wrapper">
+            <div class="orbit-controls">
+              <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+              <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+            </div>
+
+            <ul class="orbit-container">
+              <li class="is-active orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="img/feature1.jpg" alt="garden">
+                    <div class="card-section">
+                      <h2>Rooftop Garden</h2>
+                      <p>Our freshly manicured rooftop garden is open 24 hours and is perfect to lay in the sun or relax in the shade.</p>
+                    </div>
+                  </figure>
+              </li>
+
+              <li class="orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="img/feature2.jpg" alt="view">
+                    <div class="card-section">
+                      <h2>Stellar Views</h2>
+                      <p>The views offered by our rooftop gardens and in-room verandas are some of the best in the city, day or night.</p>
+                    </div>
+                  </figure>
+              </li>
+
+              <li class="orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="img/feature3.jpg" alt="food">
+                    <div class="card-section">
+                      <h2>Gourmet Cooking</h2>
+                      <p>Our new restaurant, Gallo, offers fresh gourmet plates perfect for any dietary needs. Room service available 24 hours.</p>
+                    </div>
+                  </figure>
+              </li>
+
+              <li class="orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="img/feature4.jpg" alt="pool">
+                    <div class="card-section">
+                      <h2>Rooftop Pool</h2>
+                      <p>Cool down in our sparkling blue pool surrounded by our gorgeous gardens and beautiful rooftop view.</p>
+                    </div>
+                  </figure>
+              </li>
+
+              <li class="orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="img/feature5.jpg" alt="lounge">
+                    <div class="card-section">
+                      <h2>Hotel Lounges</h2>
+                      <p>Multiple lounges are available for our guests throughout our hotel, including free wifi and television access.</p>
+                    </div>
+                  </figure>
+              </li>
+
+            </ul>
+          </div>
+          <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0">
+              <span class="show-for-sr">First slide details.</span>
+              <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+            </button>
+            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+            <button data-slide="4"><span class="show-for-sr">Fifth slide details.</span></button>
+          </nav>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="ttd" id="ttd" data-magellan-target="ttd">
+      
+      <div class="grid-container show-for-large">
+        <h1>things to do</h1>
+        <div class="grid-x grid-margin-x show-for-medium medium-up-4" data-equalizer data-equalize-on="medium" id="test-eq">
+          
+          <div class="cell">
+              <div class="card data-equalizer-watch">
+              <img src="img/ttd1.jpg">
+              <div class="card-section">
+                <h2>Lovely Cafés</h2>
+                <p>Villa Luzia is surrounded by numerous cafés and restaurants serving food from all over the world. Experience them all during your stay.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="cell">
+            <div class="card data-equalizer-watch">
+            <img src="img/ttd2.jpg">
+            <div class="card-section">
+              <h2>Art Exhibits</h2>
+              <p>Lisboa is has an up and coming art community. Explore the city and see the many museums and murals being curated by our artists.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="cell">
+            <div class="card data-equalizer-watch">
+            <img src="img/ttd3.jpg">
+            <div class="card-section">
+              <h2>Beaches</h2>
+              <p>Only 25 minutes away, Cascais beaches are clean and clear waters await you. Perfect for surfing and swimming. Boat charters available.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="cell">
+            <div class="card data-equalizer-watch">
+            <img src="img/ttd5.jpg">
+            <div class="card-section">
+              <h2>Nightlife</h2>
+              <p>Nightlife in Lisboa is a sight to discover. The hotel is surrounded by many bars, clubs, and music lounges.</p>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+   
+          
+        <div class="grid-container show-for-small hide-for-large">
+            <h1>things to do</h1>
+            <div class="orbit" role="region" aria-label="things to do" data-orbit>
+              <div class="orbit-wrapper">
+                <div class="orbit-controls">
+                  <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                  <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                </div>
+
+                <ul class="orbit-container">
+                  <li class="is-active orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="orbit-image" src="img/ttd1.jpg" alt="cafe">
+                        <div class="card-section">
+                          <h2>Lovely Cafés</h2>
+                          <p>Villa Luzia is surrounded by numerous cafés and restaurants serving food from all over the world. Experience them all during your stay.</p>
+                        </div>
+                      </figure>
+                  </li>
+
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="orbit-image" src="img/ttd2.jpg" alt="art">
+                        <div class="card-section">
+                          <h2>Art Exhibits</h2>
+                          <p>Lisboa is has an up and coming art community. Explore the city and see the many museums and murals being curated by our artists.</p>
+                        </div>
+                      </figure>
+                  </li>
+
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="orbit-image" src="img/ttd3.jpg" alt="beach">
+                        <div class="card-section">
+                          <h2>Beaches</h2>
+                          <p>Only 25 minutes away, Cascais beaches are clean and clear waters await you. Perfect for surfing and swimming. Boat charters available.</p>
+                        </div>
+                      </figure>
+                  </li>
+
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="orbit-image" src="img/ttd4.jpg" alt="tram">
+                        <div class="card-section">
+                          <h2>Historic Sites</h2>
+                          <p>Explore the city on our famous trams, operating since 1873 and taking guests and residents all around our city.</p>
+                        </div>
+                      </figure>
+                  </li>
+
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="orbit-image" src="img/ttd5.jpg" alt="nightlife">
+                        <div class="card-section">
+                          <h2>Nightlife</h2>
+                          <p>Nightlife in Lisboa is a sight to discover. The hotel is surrounded by many bars, clubs, and music lounges.</p>
+                        </div>
+                      </figure>
+                  </li>
+
+                </ul>
+              </div>
+              <nav class="orbit-bullets">
+                <button class="is-active" data-slide="0">
+                  <span class="show-for-sr">First slide details.</span>
+                  <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+                </button>
+                <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                <button data-slide="4"><span class="show-for-sr">Fifth slide details.</span></button>
+              </nav>
+            </div>
+            
+          </div>
+    </section>
+
+    <section class="about" id="about" data-magellan-target="about">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x grid-margin-y align-spaced">
+          <div class="cell small-12 large-7">
+            <img src="img/aboutus.jpg">
+          </div>
+          <div class="cell small-12 large-5">
+              <h1>about us</h1>
+              <p>Villa Luzia is a boutique hotel located in the Baixa district of Lisboa, Portugal. Offering 100 rooms and the best luxury experience in the city. Established in 1972, we have grown and improved throughout the years, creating our five star experience that we offer today. Our concierge and service providers are open 24 hours a day, to accommodate our international guests. Please contact us with any questions, and we look forward to your stay with us.</p>
+          </div>
+        </div>
+      </div>  
+    </section> 
+
+    <footer id="contact" data-magellan-target="contact">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x grid-margin-y">
+          
+          
+          <div class="cell large-8 show-for-large"id="map">
+            <img src="img/map.png">
+
+          </div>
+          
+
+          <div class="cell large-auto" id="logo">
+            <img src="img/vlogo.svg"><address>
+              R. de São Julião 148,<br>1100-527<br>Lisboa, Portugal
+            </address>
+            <p>
+              +351 21 342 7175<br>hello@vluzia.pt
+            </p>
+            <ul>
+              <a href="facebook.com">Facebook</a>
+              <a href="twitter.com">Twitter</a>
+              <a href="instagram.com">Instagram</a>
+              <a href="whatsapp.com">Whatsapp</a>
+            </ul>
+          </div>
+          
+          
+          
+          <div class="cell">
+            <p>Ⓒ Copyright Hotel Villa Luzia 2020.</p>
+          </div>
+        </div>
+        
+      </div>
+    </footer>   
+
+
+    
+
+    <!-- overlay window with spans used to show data from datepicker -->
+    <div id="confirmation-overlay" class="reveal" data-reveal>
+      <div class="row">
+        <div class="cell">
+          <div class="overlay">
+            <h1>Enjoy your stay.</h1>
+            <h2>You've booked <span class="dpd3"></span> room(s) from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+            <h2>These accomodations are for <span class="dpd4"></span> guest(s).</h2>
+            <h3>Please contact us with any questions at +351 21 342 7175.<br>We look forward to accommodating you.</h>
+
+          </div>
+        </div>
+      </div>
+      <button class="close-button" data-close aria-label="Close Accessible Modal" type="button">
+    <span aria-hidden="true">&times;</span>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
